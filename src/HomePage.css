@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.header-left {
+  font-weight: bold;
+}
+
+.header-right {
+  font-size: 14px;
+}
+
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.header-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav-button {
+  color: white;
+  background-color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.nav-button:hover {
+  background-color: #555;
+}
+
+.liquor-sales-analysis {
+  padding: 20px;
+}
+
+.tableau-viz-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.close-button {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-item {
+  flex: 1 1 calc(33.333% - 10px);
+  box-sizing: border-box;
+}
+
+.clickable-image {
+  width: 100%;
+  cursor: pointer;
+}
+
+.align-left {
+  text-align: left;
+}
